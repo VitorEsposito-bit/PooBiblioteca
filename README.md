@@ -5,7 +5,7 @@ Este programa em Java simula uma biblioteca virtual onde o usuário pode cadastr
 ## Estrutura do Projeto
 O projeto é composto por três classes principais:
 
-1. ArrayDeLivros.java
+## 1. ArrayDeLivros.java
 Esta classe representa a biblioteca e contém métodos para gerenciar livros.
 
 Atributos:
@@ -23,7 +23,7 @@ Livro buscaPorTitulo(String titulo): Busca um livro pelo título.
 boolean excluiLivro(int codigo): Exclui um livro pelo seu código.
 String toString(): Retorna uma representação em string da biblioteca.
 
-2. Livro.java
+## 2. Livro.java
 Esta classe representa um livro com suas informações básicas.
 
 Atributos:
@@ -38,7 +38,7 @@ Métodos:
 Métodos getters e setters para todos os atributos.
 String toString(): Retorna uma representação em string das informações do livro.
 
-3. AppBiblioteca.java
+## 3. AppBiblioteca.java
 Esta é a classe principal que contém o método main para executar o programa interativamente.
 
 Funcionalidades:
