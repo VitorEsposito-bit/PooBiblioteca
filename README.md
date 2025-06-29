@@ -1,53 +1,53 @@
-# POO_biblioteca
+# OOP_Library
 
-Este programa em Java simula uma biblioteca virtual onde o usuário pode cadastrar, buscar e excluir livros usando arrays.
+This Java program simulates a virtual library where the user can register, search, and delete books using arrays.
 
-## Estrutura do Projeto
-O projeto é composto por três classes principais:
+## Project Structure
+The project consists of three main classes:
 
 ## 1. ArrayDeLivros.java
-Esta classe representa a biblioteca e contém métodos para gerenciar livros.
+This class represents the library and contains methods to manage books.
 
-Atributos:
+**Attributes:**
 
-ArrayDeLivros: Array de objetos da classe Livro.
-proximoIndice: Controla o próximo índice disponível no array.
-nome: Nome da biblioteca.
+- `ArrayDeLivros`: Array of objects from the Livro class.
+- `proximoIndice`: Controls the next available index in the array.
+- `nome`: Name of the library.
 
-Métodos:
+**Methods:**
 
-ArrayDeLivros(int tamanho, String nome): Construtor para inicializar a biblioteca com um tamanho específico.
-boolean cadastraLivros(Livro livro1): Cadastra um novo livro no array, evitando duplicações.
-Livro buscaLivroCodigo(int codigo): Busca um livro pelo seu código.
-Livro buscaPorTitulo(String titulo): Busca um livro pelo título.
-boolean excluiLivro(int codigo): Exclui um livro pelo seu código.
-String toString(): Retorna uma representação em string da biblioteca.
+- `ArrayDeLivros(int tamanho, String nome)`: Constructor to initialize the library with a specific size.
+- `boolean cadastraLivros(Livro livro1)`: Registers a new book in the array, avoiding duplications.
+- `Livro buscaLivroCodigo(int codigo)`: Searches for a book by its code.
+- `Livro buscaPorTitulo(String titulo)`: Searches for a book by title.
+- `boolean excluiLivro(int codigo)`: Deletes a book by its code.
+- `String toString()`: Returns a string representation of the library.
 
 ## 2. Livro.java
-Esta classe representa um livro com suas informações básicas.
+This class represents a book with its basic information.
 
-Atributos:
+**Attributes:**
 
-codigo: Código único do livro.
-titulo: Título do livro.
-ano: Ano de publicação do livro.
-autores: Array de strings contendo os nomes dos autores.
+- `codigo`: Unique code of the book.
+- `titulo`: Title of the book.
+- `ano`: Publication year of the book.
+- `autores`: Array of strings containing the authors' names.
 
-Métodos:
+**Methods:**
 
-Métodos getters e setters para todos os atributos.
-String toString(): Retorna uma representação em string das informações do livro.
+- Getter and setter methods for all attributes.
+- `String toString()`: Returns a string representation of the book's information.
 
 ## 3. AppBiblioteca.java
-Esta é a classe principal que contém o método main para executar o programa interativamente.
+This is the main class that contains the main method to run the program interactively.
 
-Funcionalidades:
+**Features:**
 
-Cadastro de livros.
-Busca de livros por código ou título.
-Exclusão de livros.
-Listagem de todos os livros cadastrados na biblioteca.
+- Book registration.
+- Book search by code or title.
+- Book deletion.
+- Listing of all books registered in the library.
 
-Menu:
+**Menu:**
 
-Um menu interativo oferece opções para realizar as operações mencionadas acima.
+An interactive menu offers options to perform the operations mentioned above.
